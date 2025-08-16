@@ -11,4 +11,4 @@ Teste adicional para finalizar a sprint 3
 - iframe
 - Responsivo
 
-link para acesso:
+link para acesso: https://ronesjunior.github.io/Projeto_adicional_Tripleten/
