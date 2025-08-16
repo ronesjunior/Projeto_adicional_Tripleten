@@ -1,0 +1,35 @@
+.description {
+  display: flex;
+  padding-top: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.description__title {
+  margin-right: 50px;
+  margin-left: 150px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #4689ff;
+}
+
+@media (max-width: 1280px) {
+  .description__title {
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #4689ff;
+  }
+}
+
+.description__content {
+  margin: 0;
+  width: 80%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+}

@@ -1,0 +1,42 @@
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 217px 0;
+  background-color: white;
+  color: black;
+}
+
+.resources__logo-zone {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 1100px;
+}
+
+.resources__image {
+  max-width: 100%;
+  width: 100%;
+}
+
+.resources__header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.resources__title {
+  width: 80%;
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.resources__subtitle {
+  width: 80%;
+  margin: 0;
+  text-align: center;
+  padding: 20px 0 80px 0;
+  line-height: 1.2;
+}

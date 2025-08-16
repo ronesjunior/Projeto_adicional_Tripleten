@@ -1,0 +1,73 @@
+.khan {
+  padding: 105px 15px 0px 15px;
+  background: rgba(242, 242, 242, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+.khan__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto 0 auto;
+  justify-self: center;
+}
+
+.khan__author {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.khan__title {
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.khan__quote {
+  display: grid;
+  grid-template-columns: 89%;
+  grid-template-rows: auto auto auto;
+}
+
+.khan__quote-author {
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  margin: 0;
+  padding-bottom: 68px;
+  font-weight: 400;
+}
+
+.khan__quote-text {
+  padding-bottom: 36px;
+}
+
+.khan__book-container {
+  display: grid;
+  grid-template-columns: 620px auto;
+  column-gap: 48px;
+  padding: 0 0 0 15px;
+  max-height: 450px;
+  overflow: hidden;
+}
+
+.book-link {
+  color: #4689ff;
+  max-width: 100%;
+  width: 100%;
+}
+
+.book-link:after {
+  content: " →";
+  color: #4689ff;
+}
+
+.book-pic {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

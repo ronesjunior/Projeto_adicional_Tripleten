@@ -1,0 +1,39 @@
+.oakley {
+  display: flex;
+  padding-top: 100px;
+  background: rgba(242, 242, 242, 255);
+  margin: -100px 0 0 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.oakley__title {
+  margin-right: 50px;
+  margin-left: 150px;
+  margin-top: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #4689ff;
+}
+
+.oakley__content {
+  margin: 0;
+  width: 80%;
+  margin-top: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+}
+
+@media (max-width: 1280px) {
+  .oakley__title {
+    margin: 60px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #4689ff;
+  }
+}
