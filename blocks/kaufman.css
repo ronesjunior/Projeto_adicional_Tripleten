@@ -15,6 +15,21 @@
   align-items: flex-end;
   justify-items: center;
   z-index: 2;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+}
+
+.kaufman__title {
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2; /* altura da linha proporcional */
+  text-align: center;
+  font-size: 100%;
+}
+
+.kaufman__subtitle {
+  font-size: 60%;
+  font-weight: 200;
 }
 
 .kaufman__content {
@@ -27,13 +42,6 @@
   row-gap: 30px;
   padding: 70px 60px 0 60px;
   z-index: 3;
-}
-
-.kaufman__title {
-  font-weight: 600;
-  font-size: 48px;
-  margin: 0;
-  line-height: 1.2; /* altura da linha proporcional */
 }
 
 .kaufman__numero {
@@ -59,5 +67,36 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .kaufman {
+    padding: 45px 0 45px 0;
+  }
+
+  .kaufman__title {
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2; /* altura da linha proporcional */
+    text-align: center;
+    font-size: 70%;
+  }
+
+  .kaufman__subtitle {
+    font-size: 40%;
+    font-weight: 200;
+  }
+
+  .kaufman__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    max-width: 80%;
+    margin: 0 auto;
+    column-gap: 10px;
+    row-gap: 15px;
+    padding: 0;
+    z-index: 3;
   }
 }

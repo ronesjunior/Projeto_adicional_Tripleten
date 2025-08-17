@@ -29,3 +29,29 @@
 .digits__numero {
   padding-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .digits {
+    padding: 50px 0 50px 0;
+  }
+  .digits__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 70px 15px 0 15px;
+    column-gap: 25px;
+    row-gap: 60px;
+  }
+
+  .digits__title {
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  .digits__subtitle {
+    font-weight: 200;
+    font-size: 16px;
+  }
+}
