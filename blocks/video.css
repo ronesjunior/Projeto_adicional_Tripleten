@@ -5,6 +5,7 @@
   align-items: center;
   margin: auto;
   font-family: "Roboto", sans-serif;
+  font-size: 60px;
 }
 
 .video__title {
@@ -42,6 +43,14 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+  }
+
+  .video__title {
+    font-size: 60%;
+  }
+
+  .video__subtitle {
+    font-size: 50%;
   }
 }
 
