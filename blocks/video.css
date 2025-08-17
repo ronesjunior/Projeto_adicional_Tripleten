@@ -39,6 +39,9 @@
 }
 
 @media (max-width: 768px) {
+  .video {
+    padding-top: 50px;
+  }
   .video__iframes {
     flex-wrap: wrap;
     justify-content: center;

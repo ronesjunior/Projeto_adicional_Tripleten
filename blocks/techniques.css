@@ -63,6 +63,9 @@
 }
 
 @media (max-width: 768px) {
+  .techniques {
+    padding-top: 50px;
+  }
   .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* duas colunas */
