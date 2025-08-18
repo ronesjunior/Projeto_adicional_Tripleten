@@ -123,3 +123,11 @@
   line-height: 1.4;
   text-align: center;
 }
+
+.cards__image:hover {
+  filter: brightness(50%);
+}
+
+.shadow {
+  box-shadow: 10px 10px 25px 0px #00000080;
+}
