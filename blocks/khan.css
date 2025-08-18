@@ -53,7 +53,7 @@
 
 .khan__book-container {
   display: grid;
-  grid-template-columns: 620px auto;
+  grid-template-columns: minmax(100px, 620px) auto;
   column-gap: 48px;
   padding: 0 0 0 15px;
   max-height: 450px;
@@ -72,11 +72,17 @@
   color: #4689ff;
   max-width: 100%;
   width: 100%;
+  font-size: 18px;
 }
 
 .book-link:after {
   content: " →";
   color: #4689ff;
+}
+
+.book-link:hover {
+  transform: translateY(-2px); /* "flutua" para cima */
+  color: #0056b3; /* muda a cor ao passar o mouse */
 }
 
 @media (max-width: 768px) {
@@ -95,9 +101,5 @@
     padding-bottom: 50px;
     font-size: 28px;
     line-height: 1.2;
-  }
-
-  .khan__book-container {
-    display: none;
   }
 }

@@ -155,3 +155,8 @@
   content: " →";
   color: #4689ff;
 }
+
+.header__description_seletor:hover {
+  transform: translateY(-2px); /* "flutua" para cima */
+  color: #0056b3; /* muda a cor ao passar o mouse */
+}

@@ -41,3 +41,7 @@
 
 /* index.css */
 @import url("../blocks/footer.css");
+
+a {
+  text-decoration: none;
+}

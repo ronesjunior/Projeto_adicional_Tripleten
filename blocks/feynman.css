@@ -63,7 +63,7 @@
 .feynman__content_seletor {
   grid-area: content-seletor;
   color: #4689ff;
-  font-size: 22px;
+  font-size: 18px;
   z-index: 3;
   text-align: end;
 }
@@ -71,6 +71,11 @@
 .feynman__content_seletor:after {
   content: " →";
   color: #4689ff;
+}
+
+.feynman__content_seletor:hover {
+  transform: translateY(-2px); /* "flutua" para cima */
+  color: #0056b3; /* muda a cor ao passar o mouse */
 }
 
 @media (min-width: 1790px) {
